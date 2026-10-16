@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Музей «Затёски» | Школьный этнографический словарь</title>
+  <style>
+    :root {
+      --bg: #F9F6F0;
+      --card-bg: #FFFFFF;
+      --text-main: #24211D;
+      --text-muted: #5E584F;
+      --accent: #8E402A;
+      --border: #E8E0D5;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--text-main);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 24px;
+    }
+    .container {
+      background: var(--card-bg);
+      max-width: 560px;
+      width: 100%;
+      border-radius: 16px;
+      padding: 40px 32px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.04);
+      border: 1px solid var(--border);
+      text-align: center;
+    }
+    .badge {
+      display: inline-block;
+      padding: 6px 14px;
+      font-size: 13px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      background: #EFE9DF;
+      color: var(--accent);
+      border-radius: 20px;
+      margin-bottom: 20px;
+    }
+    h1 {
+      font-size: 26px;
+      line-height: 1.25;
+      margin-bottom: 12px;
+      color: var(--text-main);
+      font-weight: 700;
+    }
+    p.subtitle {
+      font-size: 16px;
+      line-height: 1.5;
+      color: var(--text-muted);
+      margin-bottom: 28px;
+    }
+    .info-box {
+      background: var(--bg);
+      border-radius: 12px;
+      padding: 18px;
+      font-size: 14px;
+      line-height: 1.6;
+      color: var(--text-muted);
+      margin-bottom: 28px;
+      text-align: left;
+    }
+    .btn {
+      display: inline-block;
+      width: 100%;
+      padding: 16px;
+      background-color: var(--accent);
+      color: #FFFFFF;
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: 600;
+      border-radius: 10px;
+      transition: opacity 0.2s;
+    }
+    .btn:hover { opacity: 0.9; }
+    footer {
+      margin-top: 28px;
+      font-size: 13px;
+      color: #9C9488;
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <div class="badge">Музей «Затёски»</div>
+    <h1>Школьный этнографический словарь</h1>
+    <p class="subtitle">Иллюстрированная энциклопедия коренных малочисленных народов Севера Верхнекетского района</p>
+    
+    <div class="info-box">
+      <strong>О проекте:</strong> Издание посвящено культуре селькупов, эвенков и кетов Верхнекетья. Подготовлено коллективом преподавателей МБОУ «Белоярская СОШ № 1» и мини-музеем «Затёски».
+    </div>
+
+    <a href="#" class="btn" id="pdfLink">Электронная версия словаря (скоро)</a>
+
+    <footer>
+      р. п. Белый Яр, 2026 г.
+    </footer>
+  </main>
+</body>
+</html>
